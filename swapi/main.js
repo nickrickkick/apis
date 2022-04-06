@@ -16,6 +16,7 @@ const showResidents = (event) => {
                 console.log(person);
                 var people = document.createElement("h2");
                 people.innerHTML = person;
+                // dont ever forget append child when you create an element!
                 document.body.appendChild(people);
             })
         }
